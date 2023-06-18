@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('items', function (Blueprint $table) {
             $table->id();
             $table->string('provider');
-            $table->string('pilihan');
-            $table->integer('harga');
+            $table->string('option');
+            $table->integer('price');
             $table->timestamps();
         });
     }

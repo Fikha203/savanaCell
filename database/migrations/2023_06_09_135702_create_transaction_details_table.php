@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('transaction_id');
             $table->foreignId('item_id');
-            $table->string('dest_number',12);
+            $table->string('dest_number');
             $table->timestamps();
         });
     }

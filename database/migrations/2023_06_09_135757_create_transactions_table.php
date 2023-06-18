@@ -13,7 +13,10 @@ return new class extends Migration
     {
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
-            
+            $table->foreignId('user_id');
+            $table->integer('total_price');
+            $table->timestamp('transaction_time')->nullable();
+            $table->boolean('status');
             $table->timestamps();
         });
     }
