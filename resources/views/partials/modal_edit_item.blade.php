@@ -24,14 +24,14 @@
                         <input type="text" class="form-control" id="edit-price" name="price" required>
                     </div>
                     <div class="modal-footer row">
-                        <div class="col-5">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                        <div class="col-6">
-                            <button type="submit" class="btn btn-primary">Save
-                                Change</button>
-                        </div>
-                    </div>
+    <div class="col-5">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #8f9fba;">Close</button>
+    </div>
+    <div class="col-6">
+        <button type="submit" class="btn btn-primary" style="background-color: #8f9fba;">Save Change</button>
+    </div>
+</div>
+
 
                 </form>
             </div>

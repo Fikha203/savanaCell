@@ -54,9 +54,9 @@
             </div>
         @endcan
         @can('admin')
-            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-create-form">
-                <i class="bi bi-plus"></i> Add Katalog
-            </button>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-create-form" style="background-color: #8f9fba; color: white;">
+        <i class="bi bi-plus"></i> Add Katalog
+    </button>
             <div class="row g-2 mt-2">
                 <div class="col-md-8">
                     <table class="table table-bordered table-hover table-striped" id='table-data'>

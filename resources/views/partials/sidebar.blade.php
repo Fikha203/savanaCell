@@ -1,9 +1,21 @@
-<nav class="navbar navbar-expand-lg bg-light fixed-top">
+<style>
+    .navbar-custom {
+        background-color: #8f9fba;
+    }
+
+    .navbar-brand-custom,
+    .navbar-custom .nav-link {
+        color: white;
+    }
+    
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/home">Navbar</a>
+        <a class="navbar-brand navbar-brand-custom" href="/home">Savana Cell</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon navbar-toggler-icon-custom"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -23,7 +35,6 @@
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto">
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -38,10 +49,7 @@
                         </li>
                     </ul>
                 </li>
-
-
             </ul>
-
         </div>
     </div>
 </nav>

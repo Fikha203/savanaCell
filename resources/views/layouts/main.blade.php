@@ -1,4 +1,6 @@
+
 <!doctype html>
+
 <html lang="en">
 
 <head>
@@ -12,6 +14,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Home</title>
+    <style>
+        body {
+            background-color: lightyellow;
+        }    
+        table {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        table thead {
+            background-color: lightblue;
+        }
+        table td {
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body>

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-6">
-                <table class="table table-bordered table-hover table-striped">
+                <table class="table table-bordered table-hover table-striped" style="border-radius: 10px;">
                     <thead>
                         <tr>
                             <th>ID Transaksi</th>
